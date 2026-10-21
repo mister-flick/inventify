@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f4ee">
+    <meta name="description" content="Inventify is an independent commercial macOS IT asset management project in active development. Explore its product scope, workflow, AI roadmap and development status.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Inventify — IT asset management for macOS">
+    <meta property="og:description" content="A considered home for equipment records, lifecycle context and the documents behind them. An independent macOS project in active development.">
+    <meta property="og:url" content="https://mister-flick.github.io/inventify/">
+    <link rel="canonical" href="https://mister-flick.github.io/inventify/">
+    <link rel="icon" type="image/svg+xml" href="assets/inventify-mark.svg">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inventify — IT asset management for macOS</title>
+    <script>document.documentElement.classList.add('js');</script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Inventify home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <rect x="3" y="3" width="11" height="11" rx="3" fill="currentColor" />
+              <rect x="18" y="3" width="11" height="11" rx="3" fill="currentColor" opacity=".68" />
+              <rect x="3" y="18" width="11" height="11" rx="3" fill="currentColor" opacity=".68" />
+              <path d="M18 19.5a1.5 1.5 0 0 1 1.5-1.5h8a1.5 1.5 0 0 1 1.5 1.5v8a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5v-8Z" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="brand-name">inventify<span class="brand-period">.</span></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+          <a href="#product">Product</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#ai">AI roadmap</a>
+          <a href="#privacy">Privacy</a>
+          <a class="nav-link nav-link-strong" href="https://github.com/mister-flick/inventify" target="_blank" rel="noopener noreferrer">
+            Project on GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-grid page-shell">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Independent macOS project <span class="eyebrow-separator">/</span> In development</p>
+            <h1 id="hero-title">Every asset.<br><em>In perspective.</em></h1>
+            <p class="hero-lede">A calmer way to keep IT equipment, lifecycle details and the documents behind them in view.</p>
+            <p class="hero-context">Inventify is an independent commercial macOS app in active development, focused on making IT asset work feel more considered and connected.</p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#product">Explore the product <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="https://github.com/mister-flick/inventify" target="_blank" rel="noopener noreferrer">Follow development <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-meta">
+              <span class="meta-icon" aria-hidden="true">⌘</span>
+              <span>Made for the Mac</span>
+              <span class="meta-divider" aria-hidden="true"></span>
+              <span>Early development</span>
+            </div>
+          </div>
+
+          <div class="hero-visual" role="img" aria-label="Illustrative concept of the Inventify workspace, not a screenshot of a released app" data-reveal data-delay="120">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+            <div class="workspace-window">
+              <div class="window-bar">
+                <div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div>
+                <span class="window-title">Inventify <span>/</span> Workspace</span>
+                <span class="window-avatar" aria-hidden="true">I</span>
+              </div>
+              <div class="workspace-body">
+                <aside class="workspace-sidebar" aria-hidden="true">
+                  <div class="workspace-org"><span class="mini-mark">i</span><span>Example workspace<small>Sample content</small></span><b>⌄</b></div>
+                  <span class="side-label">WORKSPACE</span>
+                  <div class="side-item side-active"><span class="side-icon grid-icon">▦</span> Overview</div>
+                  <div class="side-item"><span class="side-icon">▤</span> Inventory</div>
+                  <div class="side-item"><span class="side-icon">◷</span> Maintenance</div>
+                  <div class="side-item"><span class="side-icon">▧</span> Documents</div>
+                  <div class="sidebar-bottom"><span class="side-avatar">JD</span><span>Jamie Davis<small>Administrator</small></span><b>···</b></div>
+                </aside>
+                <div class="workspace-main" aria-hidden="true">
+                  <div class="crumb">Workspace <span>/</span> Overview</div>
+                  <div class="workspace-heading"><div><small>EXAMPLE WORKSPACE</small><h2>Good morning.</h2></div><span class="view-pill">All assets <b>⌄</b></span></div>
+                  <div class="overview-row">
+                    <div class="overview-card overview-card-dark"><span>INVENTORY</span><strong>Know what<br>you have.</strong><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>Equipment, at a glance</small></div>
+                    <div class="overview-card overview-card-light"><span>LIFECYCLE</span><div class="life-graphic"><div class="life-ring"><i></i><i></i><i></i><i></i></div><b>In<br>context</b></div><small>From setup to retirement</small></div>
+                  </div>
+                  <div class="assets-preview">
+                    <div class="assets-title"><strong>Recently updated</strong><span>View inventory <b>↗</b></span></div>
+                    <div class="assets-head"><span>ASSET</span><span>STATUS</span><span>LOCATION</span></div>
+                    <div class="asset-row"><span><i class="device-icon laptop-icon"></i><b>MacBook Pro<small>MBP-0241</small></b></span><span><i class="status-point"></i>Assigned</span><span>Studio A</span></div>
+                    <div class="asset-row"><span><i class="device-icon display-icon"></i><b>Studio Display<small>DSP-0118</small></b></span><span><i class="status-point status-maintenance"></i>Service</span><span>Studio B</span></div>
+                    <div class="asset-row"><span><i class="device-icon tablet-icon"></i><b>iPad Air<small>IPD-0086</small></b></span><span><i class="status-point"></i>Assigned</span><span>Remote</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="concept-note"><span class="concept-star" aria-hidden="true">✳</span> Illustrative concept · sample content</div>
+            </div>
+            <span class="visual-caption">A direction for a more connected asset record.</span>
+          </div>
+        </div>
+        <div class="hero-bottom page-shell"><span>BUILT AROUND THE DETAILS THAT MATTER</span><div class="hero-bottom-line"></div><a href="#product">Discover the product <span aria-hidden="true">↓</span></a></div>
+      </section>
+
+      <section class="intro-section section-pad" id="product" aria-labelledby="product-title">
+        <div class="page-shell">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker"><span>01</span> The product</p>
+            <div><h2 id="product-title">IT asset management,<br><em>with the context intact.</em></h2><p class="section-intro">Equipment records are most useful when the surrounding details are easy to find. Inventify is being shaped around one focused workspace for the information that follows an asset through its life.</p></div>
+          </div>
+          <div class="product-note" data-reveal>
+            <div class="note-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+            <p>Inventify is currently in development. The capabilities on this page describe the project’s intended scope; availability and details may change as the app takes shape.</p>
+            <span class="note-label">A WORK IN PROGRESS, BY DESIGN</span>
+          </div>
+          <div class="capability-grid">
+            <article class="capability-card" data-reveal>
+              <span class="card-number">01 / 05</span><span class="capability-icon icon-inventory" aria-hidden="true"><i></i><i></i><i></i></span>
+              <h3>An inventory that stays useful</h3><p>Keep equipment records together with the identifiers and details that make each item easy to recognize.</p>
+              <span class="card-foot">ASSET REGISTER</span>
+            </article>
+            <article class="capability-card" data-reveal data-delay="70">
+              <span class="card-number">02 / 05</span><span class="capability-icon icon-search" aria-hidden="true"></span>
+              <h3>Find the right record, faster</h3><p>Search and filter are part of the product scope, so teams can get from a question to an equipment record with fewer steps.</p>
+              <span class="card-foot">SEARCH &amp; FILTER</span>
+            </article>
+            <article class="capability-card" data-reveal data-delay="140">
+              <span class="card-number">03 / 05</span><span class="capability-icon icon-cycle" aria-hidden="true">↻</span>
+              <h3>See the asset over time</h3><p>Keep lifecycle and maintenance context close to the equipment record it belongs to.</p>
+              <span class="card-foot">LIFECYCLE</span>
+            </article>
+            <article class="capability-card" data-reveal>
+              <span class="card-number">04 / 05</span><span class="capability-icon icon-document" aria-hidden="true"><i></i></span>
+              <h3>Keep the paperwork close</h3><p>Document organization and report generation are part of the planned asset-management workflow.</p>
+              <span class="card-foot">DOCUMENTS &amp; REPORTS</span>
+            </article>
+            <article class="capability-card capability-card-accent" data-reveal data-delay="70">
+              <span class="card-number">05 / 05</span><span class="capability-icon icon-qr" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+              <h3>Make physical assets easier to identify</h3><p>QR codes and equipment labels are included in the project’s planned toolkit.</p>
+              <span class="card-foot">LABELS &amp; QR CODES</span>
+            </article>
+            <div class="capability-aside" data-reveal>
+              <span class="aside-rule"></span><p>Less time piecing together records.<br><em>More clarity about what comes next.</em></p><span class="aside-signature">THE INVENTIFY PRINCIPLE</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="workflow-section section-pad" id="workflow" aria-labelledby="workflow-title">
+        <div class="page-shell">
+          <div class="workflow-heading" data-reveal><div><p class="section-kicker"><span>02</span> The workflow</p><h2 id="workflow-title">One record.<br><em>A longer view.</em></h2></div><p>From first entry to ongoing maintenance, the intended workflow keeps the history and supporting detail connected to the equipment itself.</p></div>
+          <div class="workflow-rail">
+            <article class="workflow-step" data-reveal><span class="step-number">01</span><div class="step-icon step-icon-record" aria-hidden="true"><span></span><span></span><span></span></div><h3>Record the essentials</h3><p>Give each item a clear identity with equipment details and the context a team needs to manage it.</p><span class="step-caption">CREATE A RECORD</span></article>
+            <span class="rail-connector" aria-hidden="true"></span>
+            <article class="workflow-step" data-reveal data-delay="90"><span class="step-number">02</span><div class="step-icon step-icon-context" aria-hidden="true"><span></span><span></span><span></span></div><h3>Keep details together</h3><p>Bring lifecycle notes, maintenance information and related documents into the same picture.</p><span class="step-caption">KEEP THE CONTEXT</span></article>
+            <span class="rail-connector" aria-hidden="true"></span>
+            <article class="workflow-step" data-reveal data-delay="180"><span class="step-number">03</span><div class="step-icon step-icon-review" aria-hidden="true"><span></span><span></span><span></span></div><h3>Make the next step clearer</h3><p>Review an asset’s status and history to support the decisions that come next.</p><span class="step-caption">FOLLOW ITS LIFECYCLE</span></article>
+          </div>
+          <p class="workflow-footnote"><span aria-hidden="true">✳</span> A product direction, not a claim that every workflow is available today.</p>
+        </div>
+      </section>
+
+      <section class="ai-section section-pad" id="ai" aria-labelledby="ai-title">
+        <div class="page-shell ai-grid">
+          <div class="ai-copy" data-reveal>
+            <p class="section-kicker section-kicker-light"><span>03</span> AI roadmap</p>
+            <p class="ai-overline"><span class="ai-spark" aria-hidden="true">✳</span> In development</p>
+            <h2 id="ai-title">A useful assistant,<br><em>with a clear purpose.</em></h2>
+            <p class="ai-lede">Inventify is developing an assistant that could help people work with inventory data through natural-language questions.</p>
+            <p class="ai-copy-small">The goal is practical help with the information in an asset workspace—not AI for its own sake. Its capabilities, data flows and supported services remain under development.</p>
+            <div class="ai-status"><span class="status-pulse"></span><span>Exploration stage</span><span class="ai-status-divider"></span><span>Not available in a release</span></div>
+          </div>
+          <div class="ai-card" data-reveal data-delay="120">
+            <div class="ai-card-head"><span class="assistant-mark" aria-hidden="true">✳</span><div><strong>Inventify assistant</strong><small>Concept · not connected</small></div><span class="preview-tag">ROADMAP</span></div>
+            <div class="ai-chat">
+              <div class="chat-label">A POSSIBLE FUTURE INTERACTION</div>
+              <div class="chat-question">Which devices have a maintenance note?</div>
+              <div class="chat-answer"><span class="answer-mark" aria-hidden="true">✳</span><div><span>With a supported integration, an assistant could help locate relevant asset records.</span><small>Illustrative example only. No AI service is connected.</small></div></div>
+            </div>
+            <div class="ai-card-foot"><span class="foot-lock" aria-hidden="true">◇</span> Data access and handling are still being evaluated.</div>
+          </div>
+          <div class="openai-note" data-reveal>
+            <div class="openai-note-mark" aria-hidden="true">i</div>
+            <div><strong>OpenAI sign-in and ChatGPT subscription access</strong><p>Inventify is exploring whether these options can be supported in a future version. No OpenAI integration or approval is in place, and no authentication or subscription flow is currently available.</p></div>
+            <span class="openai-note-status">UNDER EVALUATION</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy-section section-pad" id="privacy" aria-labelledby="privacy-title">
+        <div class="page-shell">
+          <div class="privacy-heading" data-reveal><div><p class="section-kicker"><span>04</span> Privacy &amp; security</p><h2 id="privacy-title">Clear facts,<br><em>before firm claims.</em></h2></div><p>Inventify is still being built, so the security and data-handling behavior of a released app is not yet documented. This page makes no unverified claims about encryption, local storage, cloud sync or AI data retention.</p></div>
+          <div class="privacy-grid">
+            <div class="privacy-intro" data-reveal><span class="privacy-symbol" aria-hidden="true"><i></i><i></i><i></i></span><p>As the product takes shape, this site will explain how it handles information in plain language.</p><span class="privacy-caption">DOCUMENTATION TO FOLLOW THE PRODUCT</span></div>
+            <div class="privacy-points" data-reveal data-delay="90">
+              <div class="privacy-point"><span class="privacy-index">A</span><div><strong>Where information lives</strong><p>Storage model and backup behavior.</p></div><span class="privacy-point-status">TO BE DOCUMENTED</span></div>
+              <div class="privacy-point"><span class="privacy-index">B</span><div><strong>What connects to a service</strong><p>Network access and any third-party providers.</p></div><span class="privacy-point-status">TO BE DOCUMENTED</span></div>
+              <div class="privacy-point"><span class="privacy-index">C</span><div><strong>How AI features handle data</strong><p>What may be sent, where it goes and how it is retained.</p></div><span class="privacy-point-status">TO BE DOCUMENTED</span></div>
+              <div class="privacy-point"><span class="privacy-index">D</span><div><strong>What protection is in place</strong><p>Security practices tied to the released product.</p></div><span class="privacy-point-status">TO BE DOCUMENTED</span></div>
+            </div>
+          </div>
+          <p class="website-privacy"><span aria-hidden="true">↗</span> This static page has no analytics or embedded contact form. It is hosted by GitHub Pages, which may process standard hosting requests under GitHub’s policies.</p>
+        </div>
+      </section>
+
+      <section class="status-section section-pad" id="status" aria-labelledby="status-title">
+        <div class="page-shell status-panel" data-reveal>
+          <div class="status-main"><p class="section-kicker"><span>05</span> Project status</p><div class="status-heading"><span class="large-status-dot"></span><span>Active development</span></div><h2 id="status-title">A focused project,<br><em>built independently.</em></h2><p>Inventify is being developed independently by <a href="https://github.com/mister-flick" target="_blank" rel="noopener noreferrer">@mister-flick</a>. The GitHub repository currently publishes the project description and this website; it does not publish the app’s private source code.</p><p>Availability, pricing and release timing will be shared here when they are confirmed.</p></div>
+          <div class="status-aside"><span class="status-aside-mark" aria-hidden="true">IV</span><span class="status-label">PROJECT NOTES</span><dl><div><dt>Platform</dt><dd>macOS</dd></div><div><dt>Project type</dt><dd>Independent commercial project</dd></div><div><dt>Stage</dt><dd>In development</dd></div><div><dt>Public release</dt><dd>Not announced</dd></div></dl><a class="status-repo-link" href="https://github.com/mister-flick/inventify" target="_blank" rel="noopener noreferrer">View the public repository <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="page-shell contact-inner" data-reveal><div><p class="section-kicker"><span>06</span> Get in touch</p><h2 id="contact-title">Follow the work<br><em>as it takes shape.</em></h2><p>Project updates and public questions live with the Inventify repository.</p></div><a class="button button-light" href="https://github.com/mister-flick/inventify/issues" target="_blank" rel="noopener noreferrer">Contact on GitHub <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-main">
+        <a class="brand footer-brand" href="#top" aria-label="Inventify home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="3" y="3" width="11" height="11" rx="3" fill="currentColor"/><rect x="18" y="3" width="11" height="11" rx="3" fill="currentColor" opacity=".68"/><rect x="3" y="18" width="11" height="11" rx="3" fill="currentColor" opacity=".68"/><path d="M18 19.5a1.5 1.5 0 0 1 1.5-1.5h8a1.5 1.5 0 0 1 1.5 1.5v8a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5v-8Z" fill="currentColor"/></svg></span><span class="brand-name">inventify<span class="brand-period">.</span></span></a>
+        <p>IT asset management for macOS.<br><span>Independent. In development.</span></p>
+        <nav class="footer-links" aria-label="Footer navigation"><a href="#product">Product</a><a href="#ai">AI roadmap</a><a href="#privacy">Privacy</a><a href="https://github.com/mister-flick/inventify" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+      </div>
+      <div class="page-shell footer-bottom"><span>© <span id="year">2026</span> Inventify · An independent software project.</span><span>OpenAI and ChatGPT are trademarks of OpenAI. Inventify is not affiliated with or endorsed by OpenAI.</span></div>
+    </footer>
+  </body>
+</html>
